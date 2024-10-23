@@ -1,0 +1,325 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.player {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  justify-self: center;
+}
+
+.vid-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.video-item {
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  border: solid 1px blue;
+  padding: 10px;
+  width: 50%;
+  height: 60px;
+  gap: 2px;
+  cursor: pointer;
+}
+
+.video-item h1 {
+  width: 30%;
+  margin-right: 20px;
+  font-size: medium;
+}
+
+.video-item h2 {
+  margin-right: 20px;
+  font-size: medium;
+}
+
+.data-vjs-player {
+  width: 80%;
+}
+
+.pre-set-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  border: solid 0.5px blue;
+  border-radius: 20px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.button h1 {
+  font-size: medium;
+  margin: 0 20px;
+}
+
+.button h3 {
+  font-size: medium;
+  margin-right: 20px;
+  font-weight: lighter;
+}
+
+/* login page */
+
+.login {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-top {
+  display: flex;
+}
+
+.login-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.login-box label {
+  align-self: flex-start;
+}
+
+.login-signup{
+  display: flex;
+  gap: 20px;
+}
+
+.toggle {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.welcome {
+  margin-left: 30px;
+  align-self: flex-end;
+}
+
+.home-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.current-videos {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  gap: 20px;
+}
+
+.current-item {
+  max-width: 800px;
+}
+
+.list-item {
+  display: flex;
+}
+
+.list-item-info {
+  display: flex;
+  box-shadow: 2px 2px 5px gray;
+  border-radius: 5px;
+  width: 75%;
+  cursor: pointer;
+}
+
+.thumb {
+  margin: 10px;
+  align-self: center;
+}
+
+.current-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.current-info #current-h {
+  align-self: flex-start;
+  margin-left: 20px;
+}
+
+.other-info {
+  display: flex;
+  align-self: flex-end;
+  gap: 30px;
+  margin-right: 10px;
+}
+
+.x {
+  margin-left: 20px;
+  padding: 10px;
+  box-shadow: 2px 2px 5px gray;
+  border-radius: 5px;
+  max-height: 18px;
+  cursor: pointer;
+}
+
+.show {
+  display: flex;
+  width: 100%;
+}
+
+.tags {
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+}
+
+.tag {
+  margin: 10px;
+  padding: 3px;
+  border: solid 0.5px lightblue;
+  color: white;
+  background-color: lightblue;
+  border-radius: 9px;
+  height: 15px;
+}
+
+/* SUGGESTED VIDEOS */
+
+.sug-h1 {
+  align-self: flex-start;
+}
+
+.suggested {
+  display: flex;
+  margin-top: 20px;
+  gap: 30px;
+}
+
+.sugest-item {
+  cursor: pointer;
+}
+
+/* SERIES LIST */
+
+.sug-h2 {
+  align-self: flex-start;
+}
+
+.series-title {
+  display: flex;
+  margin-top: 20px;
+}
+
+.series-login-list{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.series-item {
+  border: solid 0.5px blue;
+  display: flex;
+  width: 55%;
+  height: 130px;
+  cursor: pointer;
+}
+
+.series-item-info-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 90%;
+  width: 100%;
+  gap: -10px;
+  margin-left: 10px;
+}
+
+.series-item-info-top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 60%;
+  width: 100%;
+}
+
+.series-title {
+  margin-bottom: -5px;
+}
+
+.series-disc {
+  width: 90%;
+  align-items: flex-start;
+  margin: 5px;
+}
+
+.series-item-info-bottom {
+  display: flex;
+}
+
+/* SEIRES TITLE PAGE */
+
+.series-title-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.series-title-title {
+  align-self: flex-start;
+}
+
+.series-breakdown {
+  height: 400px;
+  display: flex;
+  gap: 20px;
+}
+.series-breakdown #video {
+  width: 55%;
+}
+
+.series-breakdown #thumbnail {
+  height: 200px;
+}
+
+.series-breakdown #breakdown {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 40%;
+  overflow: scroll;
+}
+
+.series-video-item {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  cursor: pointer;
+}
+.series-video-item h3:hover {
+  background-color: rgb(230, 229, 229);
+}
+
+.series-chapter-item {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding: 0px 20px 0px 50px;
+  cursor: pointer;
+}
+.series-chapter-item:hover {
+  background-color: rgb(230, 229, 229);
+}
